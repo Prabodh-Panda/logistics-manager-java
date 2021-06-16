@@ -1,6 +1,6 @@
-create database if not exists exist_test;
+create database if not exists logistics_manager;
 
-use exist_test;
+use logistics_manager;
 
 create table if not exists companies (
 CMPID INT NOT NULL auto_increment,
