@@ -1,13 +1,19 @@
 # Logistics Manager Installation Instructions
-The installation process consists of two steps: 
+The installation process consists of three steps: 
 1. Download files
 2. Setting up the database
 3. Running the JAR file
 
 ## 1. Download files
+To download the JAR file and the setup SQL Script click on the link below:
+
+[v0.0.1-alpha Alpha Version of Logistics Manager](https://github.com/Prabodh-Panda/logistics-manager-java/releases/download/v0.0.1-alpha/logistics_manager_v0.0.1-alpha.zip)
+
+Download the ZIP file and extract its contents.
+
 
 ## 2. Setting up the database
-The program needs a database in order to run. To set up this database just run the sql script which is included in the download. To run the sql file open the MySQL Command Line Client and run the downloaded script.
+The program needs a database in order to run. To set up this database just run the sql script which is included in the download. To run the sql file open the MySQL Command Line Client and run: 
 
 ```
 sql> source PATH_TO_SQL_SCRIPT
