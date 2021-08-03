@@ -31,6 +31,7 @@ Reg_No varchar(10) NOT NULL,
 Owner varchar(50) NOT NULL,
 Driver varchar(50),
 CMPID INT NOT NULL,
+Status enum('AVAILABLE', 'BOOKED', 'IN TRANSIT') NOT NULL default 'AVAILABLE',
 primary key(Reg_No),
 constraint fk_cmpid_vehicles foreign key(CMPID) references companies(CMPID)
 );
